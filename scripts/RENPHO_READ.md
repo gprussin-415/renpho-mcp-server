@@ -10,7 +10,7 @@ The script imports the server's own `RenphoApiService` from `dist/`, which is th
 
 ## Run it
 
-Run these from the repo root. The script uses relative paths, so it must run from there.
+Run these from the repo root. The script finds `dist/` relative to its own file, so it also works from another working directory; a relative `--out` path resolves against the working directory.
 
 ```bash
 npm install                                    # only if node_modules/ is missing
