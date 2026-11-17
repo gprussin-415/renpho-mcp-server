@@ -34,3 +34,6 @@ coverage/
 # Claude Code parallel worktrees
 .claude/worktrees/
 .token-eater/
+
+# npm lockfile (project uses pnpm)
+package-lock.json
